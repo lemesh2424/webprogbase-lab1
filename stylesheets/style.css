@@ -122,6 +122,21 @@ body {
     list-style: none;
 }
 
+.container ul li {
+    display: block;
+    width: 100%;
+    /* border-bottom: 2px solid rgba(159, 164, 173, 0.5); */
+}
+
+.container ul a {
+    border-bottom: none;
+}
+
+.container hr {
+    color: rgba(159, 164, 173, 0.5);
+    background-color: rgba(159, 164, 173, 0.5);
+}
+
 .container .back:hover {
     background-color: white;
 }
