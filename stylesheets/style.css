@@ -46,6 +46,9 @@ body {
     padding: 0;
     margin: 0;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 
@@ -104,6 +107,8 @@ body {
     margin-top: 1%;
     background-color: white;
     border-radius: 1.5%;
+    position: relative;
+    top: 4em;
 }
 
 .container p {
@@ -279,19 +284,20 @@ body {
     font-size: 2.5em;
 }
 
-.social-list {
+.container .social-list {
     display: block;
     list-style: none;
     position: relative;
     left: 35%;
 }
 
-.social {
+.container .social {
     display: inline-block;
     margin: 0 0.3%;
+    width: 5%;
 }
 
-.social img{
+.container .social img{
     height: 2.5em;
     width: 2.5em;
 }
@@ -307,6 +313,8 @@ body {
     background-color: white;
     border-radius: 5%;
     color: black;
+    position: relative;
+    top: 2.8em;
 }
 
 .avatar img {
