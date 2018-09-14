@@ -36,9 +36,9 @@ body {
     outline: none;
 }
 
-/* .users td:not(:last-of-type):hover {
-    /* background-color: rgba(159, 164, 173, 0.5); /
-} */
+.users td a:hover {
+    background-color: rgba(159, 164, 173, 0.5);
+}
 
 .nav-bar {
     width: 100%;
