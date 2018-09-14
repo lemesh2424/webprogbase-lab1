@@ -394,3 +394,12 @@ body {
 .container .contacts p {
     text-align: left;
 }
+
+.container .tasks-list a {
+    width: 100%;
+    display: block;
+}
+
+.container .tasks-list a:hover {
+    background-color: rgba(159, 164, 173, 0.5);
+}
