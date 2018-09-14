@@ -5,10 +5,39 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <title>Users</title>
 </head>
 <body>
-    <a href="./user1.html">User</a>
-    <a href="/webprogbase-lab1">Home</a>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li class="nav-logo"><img src="images/eyes.png"></li>
+            <li class="nav-name">Look At!</li>
+            <a href="./index.html"><li class="nav-item">Home</li></a>
+            <a href="./users.html"><li class="nav-item active   ">Users</li></a>
+            <a href="./tasks.html"><li class="nav-item">Posts</li></a>
+            <a href="./about.html"><li class="nav-item">About</li></a>
+        </ul>
+    </nav>
+    <div class="container">
+        <table class="users">
+            <tr>
+                <th>Login</th>
+                <th>Fullname</th>
+                <th>Registered</th>
+            </tr>
+            <tr>
+                <td><a href="users/1.html">ari337</a></td>
+                <td><a href="users/1.html">Aristidis Rogerson</a></td>
+                <td>2018/09/13 21:07:22</td>
+            </tr>
+            <tr>
+                <td><a href="users/2.html">tor_ragnarok</a></td>
+                <td><a href="users/2.html">Tore Alden</a></td>
+                <td>2018/09/13 21:17:22</td>
+            </tr>
+        </table>
+    </div>  
 </body>
 </html>
