@@ -409,4 +409,11 @@ body {
 
 .container .tasks-list a:hover {
     background-color: rgba(159, 164, 173, 0.5);
+    padding-left: 15px;
+}
+
+.tasks-list a::before {
+    content: ">";
+    float: left;
+    margin-right: 5px;
 }
